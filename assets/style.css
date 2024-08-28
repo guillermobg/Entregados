@@ -66,13 +66,127 @@ header{
  font-weight: 600;
  color: var(--text-white);
 }
-.casa{
-height: 40%;
+.amar1{
+height: 80%;
 cursor: pointer;
+border-radius: 35%;
 }
 
 .chango{
     height: 30px;
     padding: 5px 10px;
     cursor: pointer;
+}
+main{
+    background-color: var(--nav-bg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: var(--text-white)
+}
+
+#hero{
+    max-width: 1200px;
+    margin-top: 65px;
+    padding: 70px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardamar{
+    height: 400px;
+    border-radius: 5%;
+}
+.creator{
+    height: 30px;
+    border-radius: 50%;
+}
+.hero-info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+    gap: 20px;
+}
+.hero-info h1{
+   font-size: 48px;
+   font-weight: 800;
+   width: 80%;
+   min-width: 500px;
+
+}
+.hero-info p{
+    font-size: 14px;
+    width: 70%;
+    color: var(--text-gray);
+}
+.hero-info span{
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.hero-info a{
+    background-color: var(--primary);
+    color: var(--text-white);
+    width: 120px;
+    padding: 8px 0;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 8px;
+
+}
+.hero-card{
+    background-color: var(--secondary);
+    width: 300px;
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+
+}
+.hero-card-info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.hero-card-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+.hero-card-top h3{
+    font-weight: 600;
+    font-size: 16px;
+    white-space: nowrap;
+    overflow: hidden;
+   text-overflow: ellipsis; 
+}
+.hero-card-top span{
+    background: var(--primary);
+ border-radius: 10px;
+ text-align: center;
+ padding: 3px 0;
+ width: 50px;
+ font-size: 14px;
+}
+.hero-card-bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.hero-card-creator{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.creator.info span,
+.hero-card-price p{
+    font-size: 14px;
+    color: var(--text-gray);
+    font-weight: 300;
+
 }
