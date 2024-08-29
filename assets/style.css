@@ -208,5 +208,6 @@ main{
 transform: translateX(-50%);
 font-size: 14px;
 color: var(--text-gray);
+gap: 80px;
    
 }
